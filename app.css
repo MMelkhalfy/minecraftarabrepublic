@@ -1,0 +1,125 @@
+.language-switcher {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.language-switcher button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.language-switcher button:hover {
+  background: #357abd;
+}
+
+/* Base styles */
+body {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #252525;
+  border: 3px solid #3f3f3f;
+  border-radius: 12px;
+  overflow: hidden; /* Keeps the flag corners rounded */
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* Flag Image Styles */
+.flag-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-bottom: 4px solid #4a90e2;
+}
+
+.main-flag {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the flag fits nicely */
+  display: block;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #555;
+  margin: 20px 25px;
+  padding-bottom: 10px;
+}
+
+header h2 {
+  color: #ffd700;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
+/* Content Sections */
+.content {
+  padding: 0 25px 25px 25px;
+}
+
+.section-title {
+  color: #ff9f43;
+  font-size: 1.6rem;
+  border-right: 4px solid #ff9f43;
+  padding-right: 15px;
+  margin: 30px 0 15px 0;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.announcement {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #54a0ff;
+  margin-top: 20px;
+}
+
+.banned-emojis {
+  background: #3d1d1d;
+  padding: 15px;
+  border-radius: 8px;
+  word-break: break-all;
+  border: 1px solid #ff4d4d;
+}
+
+.success-text {
+  color: #1dd1a1;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Staff/Footer Area */
+.staff-list {
+  background: #2f3542;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  text-align: center;
+  border: 1px solid #555;
+}
+
+.highlight {
+  color: #feca57;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 15px !important;
+}
